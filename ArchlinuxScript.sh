@@ -407,7 +407,7 @@ fi
 NET_DEVICE
 clear
 echo -e "\n $EnterDE:\n\n \e[36mN\e[0m = \e[36m$IllPickLater\e[0m <= default\n\n \e[36mG\e[0m = \e[36mGNOME\n
- M\e[0m = \e[36mMATE\n\n X\e[0m = \e[36mXfce\n\n L\e[0m = \e[36mLXDE\n\n \e[0m\n E\e[0m = \e[36ENLIGHTENMENT\n\n"
+ M\e[0m = \e[36mMATE\n\n X\e[0m = \e[36mXfce\n\n L\e[0m = \e[36mLXDE\n\n E\e[0m = \e[36mENLIGHTENMENT\n\n"
 read DEInst
 DEInst="${DEInst,,}"
 case "$DEInst" in
