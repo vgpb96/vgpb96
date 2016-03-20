@@ -332,7 +332,7 @@ echo -e "\n\e[36m **************************************************************
          HHHHHH
           HHHH
  \e[0m\n
- $WhichKeyLayout?\n\n \e[36mi\e[0m = \e[36m$Italian\e[0m\t( IT ) <= default\n\n \e[36me\e[0m = \e[36m$English\e[0m\t( US )\n\n \e[36mo\e[0m = \e[36m$Other\e[0m\t( ?? )\n"
+ $WhichKeyLayout?\n\n e[36mi\e[0m = \e[36m$Italiano\e[0m\t( IT )\n\n <= default\n\n \e[36me\e[0m = \e[36m$English\e[0m\t( US )\n\n \e[36mo\e[0m = \e[36m$Other\e[0m\t( ?? )\n"
 read Scorciatoie
 case "$Scorciatoie" in
 i*)
@@ -343,11 +343,6 @@ i*)
 e*)
  loadkeys us # Impostare il layout di tastiera in inglese
  Layout="us"
- echo -e "\n \e[1;36mINFO:\e[0m $SetAmerican (\e[1;36m US \e[0m) $KeyboardLayout.\n" && CONTINUE_OR_CANCEL
-;;
-*)
- loadkeys us # Impostare il layout di tastire in inglese
- Layout="?"
  echo -e "\n \e[1;36mINFO:\e[0m $SetAmerican (\e[1;36m US \e[0m) $KeyboardLayout.\n" && CONTINUE_OR_CANCEL
 ;;
 esac
