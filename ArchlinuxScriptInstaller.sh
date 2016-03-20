@@ -333,7 +333,7 @@ echo -e "\n\e[36m **************************************************************
  $WhichKeyLayout?\n\n \e[36mi\e[0m = \e[36m$Italian\e[0m\t( IT ) <= default\n\n \e[36me\e[0m = \e[36m$English\e[0m\t( US )\n\n \e[36mo\e[0m = \e[36m$Other\e[0m\t( ?? )\n"
 read Scorciatoie
 case "$Scorciatoie" in
-i*|"")
+i*)
  loadkeys it # Impostare il layout di tastiera in italiano
  Layout="it"
  echo -e "\n \e[1;36mINFO:\e[0m $SetItalian (\e[1;36m IT \e[0m) $KeyboardLayout.\n" && CONTINUE_OR_CANCEL
@@ -402,7 +402,7 @@ fi
 NET_DEVICE
 clear
 echo -e "\n $EnterDE:\n\n \e[36mN\e[0m = \e[36m$IllPickLater\e[0m <= default\n\n \e[36mG\e[0m = \e[36mGNOME\n
- M\e[0m = \e[36mMATE\n\n X\e[0m = \e[36mXfce\n\n L\e[0m = \e[36mLXDE\e[0m\n E\e[0m = \e[36ENLIGHTENMENT\n\n"
+ M\e[0m = \e[36mMATE\n\n X\e[0m = \e[36mXfce\n\n L\e[0m = \e[36mLXDE\e[0m\n E\e[0m = \e[36mENLIGHTENMENT\e[0m\n"
 read DEInst
 DEInst="${DEInst,,}"
 case "$DEInst" in
