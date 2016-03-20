@@ -34,10 +34,7 @@ NoInternet="There's no internet connection! \e[1;31m:(\e[0m Please, check the ca
 ContinueOrCancel="Press \e[1;32mEnter\e[0m to continue or \e[1;31mCtrl\e[0m + \e[1;31mC\e[0m to cancel instalation"
 PassEmpty="Password cannot be blank"
 PassMismatch="Passwords do not match"
-Welcome="Welcome to simplified installation of \e[1;36mArch Linux\e[0m"
-WhyThisScript="This script is here to simplify Arch Linux install process"
-YourRisk="YOU ARE USING IT AT YOUR OWN RISK"
-InfoGathering="First, we'll pick some information. So, let's go"
+Welcome="Welcome to the installation of \e[1;36mArch Linux\e[0m"
 WhichKeyLayout="Which keyboard layout would you like to use"
 Italian="Italian"
 English="English"
@@ -338,7 +335,7 @@ echo -e "\n\e[36m **************************************************************
  $WhichKeyLayout?\n\n \e[36mi\e[0m = \e[36m$Italian\e[0m\t( IT ) <= default\n\n \e[36me\e[0m = \e[36m$English\e[0m\t( US )\n\n \e[36mo\e[0m = \e[36m$Other\e[0m\t( ?? )\n"
 read Scorciatoie
 case "$Scorciatoie" in
-h*|"")
+i*|"")
  loadkeys italiano # Impostare il layout di tastiera in italiano
  Layout="it"
  echo -e "\n \e[1;36mINFO:\e[0m $SetItalian (\e[1;36m IT \e[0m) $KeyboardLayout.\n" && CONTINUE_OR_CANCEL
