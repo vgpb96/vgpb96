@@ -333,8 +333,8 @@ echo -e "\n\e[36m **************************************************************
  $WhichKeyLayout?\n\n \e[36mi\e[0m = \e[36m$Italian\e[0m\t( IT ) <= default\n\n \e[36me\e[0m = \e[36m$English\e[0m\t( US )\n\n \e[36mo\e[0m = \e[36m$Other\e[0m\t( ?? )\n"
 read Scorciatoie
 case "$Scorciatoie" in
-h*|"")
- loadkeys italiano # Impostare il layout di tastiera in italiano
+i*|"")
+ loadkeys it # Impostare il layout di tastiera in italiano
  Layout="it"
  echo -e "\n \e[1;36mINFO:\e[0m $SetItalian (\e[1;36m IT \e[0m) $KeyboardLayout.\n" && CONTINUE_OR_CANCEL
 ;;
