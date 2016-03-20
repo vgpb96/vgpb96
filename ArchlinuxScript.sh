@@ -115,10 +115,7 @@ NoInternet="Nessuna connessione trova! \e[1;31m:(\e[0m Controllare cavo o impost
 ContinueOrCancel="Premere \e[1;32mEnter\e[0m per continuare o \e[1;31mCtrl\e[0m + \e[1;31mC\e[0m per terminare l'installazione"
 PassEmpty="Nessuna Password Definita"
 PassMismatch="Le Password Non Corrispono"
-Welcome="Benvenuti nell'installazione semplificata \e[1;36mArch Linuxa\e[0m"
-WhyThisScript="Arch Linux script installer creato per semplificazione"
-YourRisk="ATTENZIONE A VOSTRO RISCHIO"
-InfoGathering="Iniziamo a prendere informazioni"
+Welcome="Benvenuti nell'installazione di\e[1;36mArch Linux\e[0m"
 WhichKeyLayout="Quale layout di tastiera ( keyboard layout ) utilizzare"
 Italian="Italiano"
 English="Inglese"
@@ -328,11 +325,11 @@ echo -e "\n\e[36m **************************************************************
 \e[1;36m
     HHHHH      HHHHH
    HHHHHHHH  HHHHHHHH
-   HHHHHHHHHHHHHHHHHH                       \e[0m$WhyThisScript!\e[1;36m
+   HHHHHHHHHHHHHHHHHH                       
    HHHHHHHHHHHHHHHHHH
-   HHHHHHHHHHHHHHHHHH                          \e[31m* * * $Warning: $YourRisk * * *\e[0m\e[1;36m
+   HHHHHHHHHHHHHHHHHH                          
     HHHHHHHHHHHHHHHH
-     HHHHHHHHHHHHHH                                   \e[0m$InfoGathering! \e[1;33m \e[0m\e[1;36m
+     HHHHHHHHHHHHHH                                  
       HHHHHHHHHHHH
        HHHHHHHHHH
          HHHHHH
